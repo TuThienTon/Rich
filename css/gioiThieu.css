@@ -1,0 +1,385 @@
+
+
+.tech-category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    position: absolute;
+    transform: translateX(22%);
+}
+.tech-category .row{
+    background-color: #fff;
+}
+.tech-category ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 3rem;
+    margin-top: -50px;
+    background: #fff;
+    z-index: 10;
+}
+.tech-category li{
+    display: flex;
+    margin-left: 2rem;
+}
+.tech-category a{
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
+
+.introduce-general .content {
+    text-align: justify;
+    margin-top: 15%;
+    margin-left: 20%;
+    font-size: 80%;
+}
+.introduce-general .content {
+    text-align: justify;
+    margin-bottom: 1em;
+
+}
+.introduce-general ul i {
+    font-size: .8em;
+    margin-right: 0.5em;
+}
+.introduce-general ul i, .introduce-general strong {
+    color: #1670c5;
+}
+.vision {
+    padding-bottom: 2rem;
+}
+.vision{
+    background: url(/images/trang-gioi-thieu/background-tamnhinvasumenh.png);
+}
+.vision .intro {
+    padding: 0 5rem 1rem 5rem;
+    font-size: 0.97rem;
+    font-weight: 600;
+}
+.vision-item .img {
+    margin-bottom: 1.5em;
+}
+.vision-item .title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1670c5;
+    margin-bottom: 0.5rem;
+}
+.vision-item .desc {
+    font-size: 0.8rem;
+    margin: 0;
+    text-align: justify;
+}
+.core-values {
+    background: url(/images/trang-gioi-thieu/background-giatricotloi.png) no-repeat top;
+    background-size: cover;
+    padding: 0;
+}
+.core-values .content {
+    padding: 0 12rem 0 12rem;
+    position: relative;
+}
+.img-fluid {
+    max-width: 100%;
+    min-height: 30rem;
+}
+
+.core-values ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.core-values .core-left{
+    text-align: right;
+    padding-right: 12.5%;
+}
+.core-values .core-right{
+    text-align: left;
+    padding-left: 10%;
+}
+.core-values li{
+    height: 20%;
+}
+.core-values .d-flex div{
+    height: 100%;
+}
+.core-values .d-flex div .title{
+    margin-top: 3%;
+}
+.core-item .title{
+    font-size: 1vw;
+}
+.core-values .desc{
+    height: 80%;
+    font-size: 0.8vw;
+}
+.core-values .core-left .d-flex{
+    justify-content: right;
+}
+.core-item{
+    
+    width: 73%;
+}
+/* Lĩnh vực hoạt động */
+.field{
+    background-image: url(/images/background-linhvuchoatdong.png);
+    text-align: center;
+    text-transform: uppercase;
+}
+.field img{
+    max-width: 12rem;    
+    max-height: 15rem;
+}
+.field ul li{
+    padding:0 0.2rem;
+    display: inline;
+    
+}
+.field ul li p{
+    font-size: 1.2vw;
+    padding: 0.5rem 0;
+    position: relative;
+    margin: 0;
+    background-color:#fff;
+}
+
+.field ul li p .text {
+    position: relative;
+    z-index: 99;
+    color: #000000ba;
+    font-weight: bold;
+}
+.field ul li p .rectangle {
+    width: 2em;
+    height: 2em;
+    background: #fff;
+    top: -30%;
+    left: 40%;
+    transform: rotateZ(45deg);
+    position: absolute;
+}
+.member {
+    background: #283e59;
+    padding: 0 15% 5%;
+}
+.member .col-3{
+    padding: 0;
+}
+.member-item{
+    margin-top: 30%;
+    height: 68%;
+    width: 100%;
+    font-size: 1vw;
+    padding: 0 5%;
+}
+.member-item-1{
+    text-align: left;
+
+}
+.member-item-2{
+    text-align: right;
+}
+.member-item .title{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #1670c5;
+}
+
+.plan .img img{
+    width: 80%;
+}
+.slick-track{
+    display: flex;
+}
+.copy-right{
+    background-color: #1670c5;
+    text-align: center;
+    color: #fff;
+}
+.slide-partner{
+    display: flex;
+    justify-content: center;
+}
+.slide-partner img{
+    padding-bottom: 3rem;
+    width: 15rem;
+    height: 10rem;
+    padding-left: 2rem;
+    
+}
+
+.ft-item{
+    text-align: left;
+}
+
+.nav-pills{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-pills li{
+    display: flex;
+    width: 30%;
+    padding: 0 2rem;
+    justify-content: center;
+}
+.nav-pills li button{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.nav-link{
+    background-color: #a5a5a5 !important;
+    color: #000 !important;
+    font-weight: 500 !important;
+}
+.nav-link.active{
+    color: #fff !important;
+    background-color: #1670c5 !important;
+}
+.project-wrapper{
+    background: #fff;
+    padding-bottom: 2rem;
+}
+.project-item {
+    background: #f6f6f6;
+    margin-top: 2.2em;
+    padding: 1em;
+}
+.project-img img {
+    width: 100%;
+}
+.project-info {
+    font-weight: 700;
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-word;
+}
+.project-button{
+    padding: 1rem;
+}
+.project-button button{
+    background-color: #1670c5;
+    border: none;
+    padding: 0.5rem 5rem;
+    color: #fff;
+}
+.boss-item{
+    
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+.boss-item .img{
+    height: 15rem;
+}
+.boss-item .img img{
+    width: 100%;
+    height: 100%;
+}
+.boss-item .desc {
+    padding: 1em 0 0 0;
+}
+.boss-item p {
+    margin: 0;
+    color: #1670c5;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.boss-item .name {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.boss-item hr {
+    border-bottom: 2px solid #1670c5;
+}
+.boss-item .position {
+    color: #000000;
+    font-weight: 500;
+}
+#y-nghia-logo {
+    padding-top: 3em;
+    background: #fff;
+}
+#y-nghia-logo .row .col-logo {
+    max-width: 50%;
+}
+#y-nghia-logo .item-logo {
+    margin: 0.5em;
+    padding: 1em;
+    background: #f6f6f6;
+}
+#y-nghia-logo .img-logo {
+    margin: 0.5em;
+    padding: 1em;
+    background: #fff;
+}
+#y-nghia-logo .content {
+    margin: 0.5em;
+    text-align: center;
+}
+#y-nghia-logo img {
+    width: 100%;
+    min-width: 3rem;
+}
+#y-nghia-logo .content p {
+    margin-bottom: 0;
+    margin-top: 0.5em;
+    font-size: 0.8rem;
+}
+@media (max-width: 770px) {
+    /* ẩn phàn tử core-values khi màn nhỏ hơn 770px: phần giá trị cốt lõi */
+    .core-values{
+        display: none;
+    }
+    @media (max-width: 600px){
+        
+        .field img{
+            height: 5rem;
+        }
+        
+    }
+}
+@media (min-width: 990px) {
+    .col-logo{
+        width: 20% !important;
+    }    
+}
+@media (min-width: 601px) and (max-width: 1000px){
+    @media (max-width: 700px) {
+        
+        .field img{
+            height: 6rem;
+        }
+        
+    }
+    @media (max-width: 800px) and (min-width: 700px) {
+        
+        .field img{
+            height: 10rem;
+        }
+    }
+    @media (max-width: 1000px) and (min-width: 801px) {
+        
+        .field img{
+            height: 10rem;
+        }
+        
+    }
+}
+@media (min-width: 1001px) and (max-width: 1400px) {
+    .field img {
+        height: 15rem;
+    }
+}

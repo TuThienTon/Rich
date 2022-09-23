@@ -1,0 +1,383 @@
+@font-face {
+    font-family:"UTM Swiss Condensed";
+    src: url(/00174-UTM-Swiss-Condensed/00174-UTM-Swiss-Condensed.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    list-style: none;
+    font-family:"UTM Swiss Condensed" !important;
+}
+body{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+footer{
+    background-color: #fff;
+    font-size: 1rem;
+    
+}
+a{
+    text-decoration: none !important;
+}
+a:hover {
+    color: coral !important;
+}
+ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+img{
+    vertical-align: middle;
+    border-style: none;
+}
+h1{
+    color: coral !important;
+}
+h2{
+    text-align: center;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    color: #1670c5 !important;
+}
+
+h3{
+    text-transform: uppercase;
+    font-weight: 700 !important;
+    font-size: medium !important;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+footer h5{
+    font-weight: bold;
+}
+footer ul{
+    padding: 0;
+}
+footer li{
+    padding-top: 0.5rem;
+}
+/* Phần header của trang */
+.wrapper{
+    background: rgb(236, 241, 243);
+}
+.menu-with-logo{
+    color: #1670c5;
+}
+.fab img{
+    width: 80%;
+}
+/* Tiêu đề lớn */
+.company-name{
+    text-align: center;
+    color: blue;
+}
+/* mục menu chính */
+.menu-wrapper {
+    background: #1670c5;
+    line-height: 2rem   ;
+    text-transform: uppercase;
+}
+.menu-wrapper a{
+    color: #fff;
+    font-size: 100%;
+    white-space: nowrap;
+}
+.menu div ul{
+    display: flex;
+}
+.menu div ul li{
+    display: inline;
+    padding: 0 1rem;
+}
+/* Phần tìm kiếm trong mục menu */
+.menu-search-input {
+    border: solid #fff;
+    border-radius: 1rem;
+}
+.menu-search-input input{
+    background: none;
+    border: none;
+    color: #fff;
+}
+/* css cho chữ ẩn placeholder bên trong thẻ input */
+::-webkit-input-placeholder {
+    text-align: right;
+    color: #fff;
+    padding-right: 1.5rem;
+}
+.menu-search-input img {
+    padding: 5px ;
+    width: 15%;
+}
+/* Tiêu đề nhỏ của các mục khác nhau */
+.box-title-page{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 2rem 0;
+}
+
+.box-title-page span {
+    width: 8rem;
+    height: 0.4rem;
+    background: #1670c5;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-300%);
+    border-radius: 4px;
+}
+.ft-item{
+    text-align: left;
+}
+.logo-bct{
+	width: 50%;
+}
+/* phần banner của mỗi trang */
+.banner-page{
+    background:url(/images/banner-gioi-thieu.png);
+}
+.banner-page .content {
+    padding: 5%;
+    color: #fff;
+}
+
+/* linh tinh test */
+
+/* Cần sửa lại */
+
+
+@media (max-width: 769px) {
+	.banner-header h2 {
+		font-size: 16px;
+	}
+
+	.banner-header p {
+		font-size: 12px;
+	}
+
+	.banner-header div {
+		padding-top: 30px;
+	}
+
+	.content-header:before {
+		top: 114%;
+	}
+
+	.company-name, .social-menu {
+		display: none;
+	}
+
+	.menu-with-logo .menu-search {
+		display: inline-block;
+		width: 29%;
+	}
+
+	.menu-search img {
+		width: 20px;
+	}
+
+	.rich-item {
+		margin-bottom: 25px;
+	}
+
+
+	.introduce-right-content-wrapper h5 {
+		padding: 0.5em 0;
+	}
+
+	.view, .duty {
+		font-size: 14px;
+		padding: 1em 0em;
+	}
+
+	.activity-content-wrapper {
+		padding-top: 1em;
+	}
+
+	.activity-txt h3 {
+		font-size: 14px;
+	}
+
+	.activity-item-wrapper {
+		flex-wrap: wrap;
+		justify-content: unset;
+	}
+
+	.activity-item {
+		width: 33.333%;
+	}
+
+	.rich-index-header img {
+		width: 70px;
+	}
+
+	.rich-index-header span {
+		bottom: 34px;
+	}
+
+	.develope-item {
+		padding: 0 2em;
+	}
+
+	.develope-img {
+		height: 5em;
+	}
+
+	.develope-item span {
+		font-size: 20px;
+	}
+
+	.develope-item p {
+		font-size: 12px;
+	}
+
+	.menu .menu-search {
+		display: none;
+	}
+
+	.menu {
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		background: #007bff;
+		z-index: 1;
+		top: 0;
+		left: 0;
+	}
+
+	.menu {
+		display: none;
+		animation: menuShow .4s ease-out 1;
+	}
+
+		.menu.noactive {
+			animation: menuHide .3s ease-out 1;
+		}
+
+		.menu.active {
+			display: block;
+		}
+
+	nav > div {
+		display: flex;
+		align-items: center;
+	}
+
+	.menu ul {
+		display: block;
+		width: 100%;
+	}
+
+		.menu ul li {
+			width: 100%;
+			text-align: center;
+		}
+
+			.menu ul li a {
+				display: inline-block;
+			}
+}
+
+@media (max-width: 769px) {
+	.menu ul {
+		display: block;
+		width: 100%;
+	}
+	
+}
+
+@media (max-width: 1024px) {
+	.logo {
+		width: 20%;
+	}
+	.company-name h1 {
+		font-size: 30px;
+	}
+
+	.company-name p {
+		font-size: 14px;
+	}
+	.menu ul li {
+		padding: 10px 15px;
+	}
+
+	.menu ul a {
+		font-size: 14px;
+	}
+
+	.menu-search {
+		width: 20%;
+	}
+
+	.menu-search-input input {
+		width: 100%;
+	}
+
+	.banner-header div {
+		padding-top: 35px;
+	}
+
+	.rich-index-header h2 {
+		font-size: 1.9rem;
+	}
+
+	.rich-index-header span {
+		bottom: 45px;
+	}
+}
+
+@media (max-width: 1199px) {
+	.logo {
+		width: 22%;
+	}
+
+	.company-name h1 {
+		font-size: 30px;
+	}
+
+	.menu ul li {
+		padding: 10px;
+	}
+}
+
+/* with: 1200 - 1600 */
+@media only screen and (max-width: 1600px) and (min-width: 1200px) {
+	footer {
+		font-size: 1.1rem !important;
+	}
+    .logo{
+        width: 100%;
+    }
+	.box-title-page h2 {
+		font-size: 2rem;
+	}
+
+}
+@media (max-width: 991px) and (min-width: 769px) {
+	.menu-search-input {
+		border: none;
+		display: none;
+	}
+	.menu-search img {
+		width: 30px;
+	}
+}

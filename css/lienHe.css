@@ -1,0 +1,19 @@
+
+#ban-do h5 {
+    margin-bottom: 0;
+}
+.lien-he .dia-chi address, .lien-he .dia-chi i, .lien-he .dia-chi a {
+    color: #000;
+    font-weight: bold;
+}
+.lien-he .dia-chi i {
+    color: #fff;
+    font-size: 1rem;
+}
+.lien-he .dia-chi address, .lien-he .dia-chi i, .lien-he .dia-chi a {
+    color: #000;
+    font-weight: bold;
+}
+.w-50 .d-flex > img {
+    padding: 0 5%;
+}

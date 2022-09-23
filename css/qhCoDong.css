@@ -1,0 +1,72 @@
+.contentBox {
+    padding: 3rem 0;
+}
+h5{
+    font-size: 1.5vw !important;
+}
+.qhcd-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.qhcd-left-content .title {
+    text-transform: uppercase;
+    color: #fff;
+    background: #1670c5;
+    padding: 1.5em;
+    font-weight: 700;
+}
+.qhcd-left-content .title button {
+    color: #fff;
+    background: transparent;
+    border: none;
+    font-size: 1.5em;
+    display: flex;
+    transition: all .2s linear;
+}
+.wrapper #collapseExample, footer {
+    background: #fff;
+}
+.qhcd-left-content ul{
+    margin: 0;
+}
+.qhcd-left-content ul li {
+
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    border-bottom: 1px solid #999999;
+}
+.qhcd-left-content ul li img {
+    margin-right: 1rem;
+}
+.qhcd-right-content {
+    padding-left: 5.6em;
+}
+.qhcd-right-content h4 {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.qhcd-right-content table tr th:nth-child(1), .qhcd-right-content table tr th:nth-child(2) {
+    text-align: left !important;
+}
+.qhcd-right-content table tr th {
+    font-weight: 700;
+    text-transform: uppercase;
+    border-top: 2px solid #999;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+.table td, .table th {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+.qhcd-right-content table tr {
+    border-bottom: 1px solid #999;
+}

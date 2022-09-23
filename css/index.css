@@ -1,0 +1,352 @@
+
+/* mục nav phụ */
+.tech-category ul{
+    display: flex;
+    background: #fff;
+    position: relative;
+    transform: translateY(-50%);
+    justify-content: space-between;
+    padding-right: 2rem;
+}
+.tech-category ul li{
+    display: inline;
+    margin: 1rem;
+}
+.tech-category ul li a{
+    text-transform: uppercase;
+    color: #000;
+    white-space: nowrap;
+    font-size: 1vw;
+}
+
+/* Mục giới thiệu */
+.introduce-wrapper{
+    position: relative;
+    
+}
+/* Mục introduce bên trái */
+.intro-image{
+    padding: 0 !important;
+}
+.intro-image img{
+    width: 100%;
+    height: 100%;
+}
+/* Mục introduce bên phải */
+
+.introduce-right-content-wrapper p{
+    color: black;
+    font-size: 0.9rem;
+}
+
+.introduce-right-content-wrapper p span{
+    color: #1670c5;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.introduce-right-content-wrapper img{
+    padding-right: 1rem;
+}
+.view, .duty {
+	padding: 2rem;
+	text-align: justify;
+}
+.duty-content-wrapper {
+	background: #fff;
+}
+.view-content-wrapper {
+	background-color: #e6e6e6;
+}
+
+
+/* Lĩnh vực hoạt động */
+.field{
+    background-image: url(/images/background-linhvuchoatdong.png);
+    text-align: center;
+    text-transform: uppercase;
+}
+.field img{
+    max-width: 12rem;    
+    max-height: 15rem;
+}
+.field ul li{
+    padding:0 0.2rem;
+    display: inline;
+    
+}
+.field ul li p{
+    font-size: 1.2vw;
+    padding: 0.5rem 0;
+    position: relative;
+    margin: 0;
+    background-color:#fff;
+}
+
+.field ul li p .text {
+    position: relative;
+    z-index: 99;
+    color: #000000ba;
+    font-weight: bold;
+}
+.field ul li p .rectangle {
+    width: 2em;
+    height: 2em;
+    background: #fff;
+    top: -30%;
+    left: 40%;
+    transform: rotateZ(45deg);
+    position: absolute;
+}
+
+/* Thông tin của doanh nghiệp */
+.develope-wrapper{
+    background: url(/images/rich-connection/anh-4.png) no-repeat top;
+    /* background-size: cover;
+    padding: 0; */
+}
+.develope-content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.develope-item-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.develope-item{
+    padding: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+.develope-img img{
+    width: 8rem;
+    height: 7rem;
+}
+.project-wrapper{
+    background: #fff;
+    
+}
+/* phần copyright */
+.copy-right{
+    background-color: #1670c5;
+    text-align: center;
+    color: #fff;
+}
+/* Phần đối tác */
+.slide-partner{
+    display: flex;
+    justify-content: space-between;
+}
+.slide-partner img{
+    padding-bottom: 3rem;
+    width: 20%;
+    
+}
+
+
+
+.news-event-wrapper .nav{
+    background: #a5a5a5 !important;
+    margin: 0 2rem;
+}
+.news-event-wrapper .nav  li{
+    display: inline;
+    width: 33.330%;
+    padding: 0;
+}
+.news-event-wrapper .nav  li button{
+    border-bottom: #1670c5 solid 5px;
+    border-radius: 0;
+}
+.nav-link:hover{
+    background: #1670c5 !important;
+    color: coral !important;
+}
+.news-event-wrapper .tab-content{
+    padding: 0 2rem;
+}
+.news-event-wrapper .news-event-item{
+    margin:auto
+}
+.news-event-img{
+    align-items: center;
+}
+
+.news-event-img img{
+    width: 100%;
+}
+.news-event-info{
+    background-color: #fff;
+    padding: 1rem;
+}
+.news-event-info h5{
+    
+    padding-bottom: 10px;
+    border-bottom: 2px solid #000;
+    text-transform: uppercase;
+}
+.news-event-info h5 a{
+    color: #000;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.news-event-info p {
+    font-size: 1rem;
+}
+.news-event-time {
+    margin-top: 0.9rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.news-event-time p{
+    margin: 0;
+}
+.news-event-time p:nth-child(2) {
+    padding: 0 1em 0 2em;
+    position: relative;
+}
+.news-event-time a{
+    font-size: 1rem;}
+.news-event-time a:last-child {
+    margin-left: 7px;
+}
+.news-event-time p:nth-child(2):before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 15px;
+    border-right: 2px solid #a5a5a5;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+.nav-pills{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-pills li{
+    display: flex;
+    width: 30%;
+    padding: 0 2rem;
+    justify-content: center;
+}
+.nav-pills li button{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.nav-link{
+    background-color: #a5a5a5 !important;
+    color: #000 !important;
+    font-weight: 500 !important;
+}
+.nav-link.active{
+    color: #fff !important;
+    background-color: #1670c5 !important;
+}
+.project-item {
+    background: #f6f6f6;
+    margin-top: 2.2em;
+    padding: 1em;
+}
+.project-img img {
+    width: 100%;
+}
+.project-info {
+    font-weight: 700;
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-word;
+}
+.project-button{
+    padding: 1rem;
+}
+.project-button button{
+    background-color: #1670c5;
+    border: none;
+    padding: 0.5rem 5rem;
+    color: #fff;
+}
+
+
+
+@media (max-width: 600px){
+    .tech-category .container{
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+    }
+    .tech-category div ul {
+        display: flex;
+        background: #fff;
+        width: 100%;
+        position: unset;
+        transform: translateY(0);
+        padding: 0;
+    }
+    .tech-category img{
+        width: 25%;
+    }
+    .field img{
+        height: 5rem;
+    }
+    .develope-item{
+        padding: 1rem;
+    }
+    .develope-img img{
+        width: 3rem;
+        height: 2rem;
+    }
+}
+@media (min-width: 601px) and (max-width: 1000px){
+    @media (max-width: 700px) {
+        .tech-category ul {
+            width: 33rem;
+            left: 5%;
+        }
+        .tech-category img{
+            width: 40%;
+        }
+        .field img{
+            height: 6rem;
+        }
+        .develope-img img{
+            width: 4rem;
+            height: 3rem;
+        }
+    }
+    @media (max-width: 800px) and (min-width: 700px) {
+        .tech-category img {
+            width: 30%;
+        }
+        .field img{
+            height: 10rem;
+        }
+        .develope-img img{
+            width: 4rem;
+            height: 3rem;
+        }
+    }
+    @media (max-width: 1000px) and (min-width: 801px) {
+        .tech-category img{
+            width: 40%;
+        }
+        .field img{
+            height: 10rem;
+        }
+        .develope-img img{
+            width: 5rem;
+            height: 4rem;
+        }
+    }
+}
+@media (min-width: 1001px) and (max-width: 1400px) {
+    .field img {
+        height: 15rem;
+    }
+}
